@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+DerivedData/
+
+# This is a library package — consumers resolve their own dependency graph,
+# so we don't commit a resolved snapshot here.
+Package.resolved
+
+# Xcode
+xcuserdata/
+*.xcuserstate
