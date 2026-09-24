@@ -27,14 +27,14 @@ let package = Package(
         .binaryTarget(
             name: "AditudeCore",
             url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1/AditudeCore.xcframework.zip",
-            checksum: "78a31be2c2edb019c20b4cbfb8291526846d31ac817a19aaa3ab7c599e9c3d39"
+            checksum: "2e762a799310a2d489cc25793f204c2b1148873077e5070fa1e7b124896968a1"
         ),
 
         // Google Mobile Ads Adapter
         .binaryTarget(
             name: "AditudeGMA",
             url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1/AditudeGMA.xcframework.zip",
-            checksum: "95852808075cf7cbeee860601a779f87ef1cf3a5d18ea9b7d721eb9d32b04839"
+            checksum: "5db66e2a9cdea29c78a69489a4ac52ab41e7b0d1fc4e2c0a9a86d27bd98eb7e8"
         ),
         .target(
             name: "AditudeGMADependencies",
@@ -50,7 +50,7 @@ let package = Package(
         .binaryTarget(
             name: "AditudePrebid",
             url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1/AditudePrebid.xcframework.zip",
-            checksum: "6036a1b9dfd2dc99562b4e0d041f62e4efe18ef292d904335a60cde038b0dcde"
+            checksum: "1c167c73725bca6a43d9bc216f9dd51ac36d89a7338146d90e7cdf9eafbca86a"
         ),
         .target(
             name: "AditudePrebidDependencies",
@@ -65,12 +65,12 @@ let package = Package(
         .binaryTarget(
             name: "AditudeAmazon",
             url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1/AditudeAmazon.xcframework.zip",
-            checksum: "85236b8277373fa717ac62d868bdf71552578e080633f8e82c83d6dc641dce79"
+            checksum: "8cfdde57155148b97d732f7c3a735ab528bc4e55b12795a6c1ba0e6b9aa2783c"
         ),
         .binaryTarget(
             name: "DTBiOSSDK",
             url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1/DTBiOSSDK.xcframework.zip",
-            checksum: "fdc857e1679ed7967e5a669d5d002f99e7de6b3d66b7e95d0390dcb9c4d069f1"
+            checksum: "586820eb80878fe5e47e3ccba8f61545d781fa81e77f0eaeedb9093c46555125"
         ),
         .target(
             name: "AditudeAmazonDependencies",
