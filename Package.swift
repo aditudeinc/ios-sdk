@@ -15,26 +15,26 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads",
-            from: "13.4.0"
+            exact: "13.10.0"
         ),
         .package(
             url: "https://github.com/prebid/prebid-mobile-ios.git",
-            from: "3.3.1"
+            exact: "3.3.4"
         ),
     ],
     targets: [
         // Aditude core framework
         .binaryTarget(
             name: "AditudeCore",
-            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.0/AditudeCore.xcframework.zip",
-            checksum: "535fd110df1071be96e9a2b54004500d99f9b69eef4a6d0a34a9dd23aea7d092"
+            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1/AditudeCore.xcframework.zip",
+            checksum: "76c8bf244dff0b1bc7c05baa41986f257265ffae674985e5a1f47d2b1f60f313"
         ),
 
         // Google Mobile Ads Adapter
         .binaryTarget(
             name: "AditudeGMA",
-            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.0/AditudeGMA.xcframework.zip",
-            checksum: "5c89d5964e0624af00aa9533f9c710a8ae51d56312df7bc22f0fbaea6cdd59b8"
+            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1/AditudeGMA.xcframework.zip",
+            checksum: "8d78b4da14a631df4a98649d69d41fcc64385e794baaf40f283a75b5ada057d1"
         ),
         .target(
             name: "AditudeGMADependencies",
@@ -49,8 +49,8 @@ let package = Package(
         // Prebid Mobile Adapter
         .binaryTarget(
             name: "AditudePrebid",
-            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.0/AditudePrebid.xcframework.zip",
-            checksum: "8de85ebabfc8cc86300076f875a471fb04380666868c2e92c26904d311572bd4"
+            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1/AditudePrebid.xcframework.zip",
+            checksum: "373952c3a68c21b2386531db264bc5c45b02c8c3b2c052e533cf54fb2faaefbc"
         ),
         .target(
             name: "AditudePrebidDependencies",
@@ -64,13 +64,13 @@ let package = Package(
 
         .binaryTarget(
             name: "AditudeAmazon",
-            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.0/AditudeAmazon.xcframework.zip",
-            checksum: "1d0c44c841b8a5c9d27671ae61e1f18ae2daada65dba04415e0ea28e0f0b1b55"
+            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1/AditudeAmazon.xcframework.zip",
+            checksum: "8b3795b0cc3fdafffda96152d1a5c56a900d4286a4725ce134019f1ae4d33235"
         ),
         .binaryTarget(
             name: "DTBiOSSDK",
-            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.0/DTBiOSSDK.xcframework.zip",
-            checksum: "74238a49a34749fbe3b446bf80d6bd0d7b9b80d141f94a8e7f81fa09c80a6344"
+            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1/DTBiOSSDK.xcframework.zip",
+            checksum: "1885b6e189ae0c72ee59728c4a8d90efcddeba657c033f68797d720821d330f4"
         ),
         .target(
             name: "AditudeAmazonDependencies",
