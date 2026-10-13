@@ -26,15 +26,15 @@ let package = Package(
         // Aditude core framework
         .binaryTarget(
             name: "AditudeCore",
-            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1-alpha2/AditudeCore.xcframework.zip",
-            checksum: "8a811b3252584ad4e8adaa3c2e9680cfb35598434aa637947943664c5aa31efb"
+            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1-alpha3/AditudeCore.xcframework.zip",
+            checksum: "1d2ba3917c5bc8b0238c36538dc1f6ef7cb3fac708dcb98e4199654b55a6b8ea"
         ),
 
         // Google Mobile Ads Adapter
         .binaryTarget(
             name: "AditudeGMA",
-            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1-alpha2/AditudeGMA.xcframework.zip",
-            checksum: "cbb064166c4e41cd3f73b22dae09bc7cc027f3b9acb9985b98ae56a55d013f27"
+            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1-alpha3/AditudeGMA.xcframework.zip",
+            checksum: "c1506dc35ad101d6b14edceeac95f68b0e8358fc9ab47b82704664758c8c1a60"
         ),
         .target(
             name: "AditudeGMADependencies",
@@ -49,8 +49,8 @@ let package = Package(
         // Prebid Mobile Adapter
         .binaryTarget(
             name: "AditudePrebid",
-            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1-alpha2/AditudePrebid.xcframework.zip",
-            checksum: "b937e648fa93bab4694eb88f4714cca94dda6d611cebf76b064a5fc15f3b0b18"
+            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1-alpha3/AditudePrebid.xcframework.zip",
+            checksum: "65000e28ae03c19e7a65844336e1da5b145386d0918b45ae4788b1846dadecbe"
         ),
         .target(
             name: "AditudePrebidDependencies",
@@ -64,13 +64,13 @@ let package = Package(
 
         .binaryTarget(
             name: "AditudeAmazon",
-            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1-alpha2/AditudeAmazon.xcframework.zip",
-            checksum: "a5a1f2ac9585331cd9f6b141d5077cd76001033896996ca80a022fc960006e55"
+            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1-alpha3/AditudeAmazon.xcframework.zip",
+            checksum: "8f7e807feafb23b7d2d9c67bd26177ff7bc6ae2d4b85363e998d390019835449"
         ),
         .binaryTarget(
             name: "DTBiOSSDK",
-            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1-alpha2/DTBiOSSDK.xcframework.zip",
-            checksum: "6807cafe28777bfa6e9fb41886342e4865a9c504088d624669d370b455a98df4"
+            url: "https://github.com/aditudeinc/ios-sdk/releases/download/1.0.1-alpha3/DTBiOSSDK.xcframework.zip",
+            checksum: "d5381f43f38bf7d7b3cbdd8e6289906eaaa441cbaab1bdfa6cc64c886ee28af3"
         ),
         .target(
             name: "AditudeAmazonDependencies",
